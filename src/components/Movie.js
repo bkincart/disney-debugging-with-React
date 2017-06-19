@@ -1,12 +1,10 @@
 import React from 'react';
 
-const Movie = (props) => {
+const Movie = () => {
   return(
     <li>
-      {props.name}
+      {title}
       <button type="button" onClick={props.handleButtonClick}>Delete</button>
     </li>
   )
 }
-
-export default Movie;
